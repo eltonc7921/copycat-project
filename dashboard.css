@@ -1,6 +1,10 @@
+body {
+    background: #f0f0f0 url('img/bg-body.gif') top left repeat-y;
+    padding-top: 100px;
+}
+
 .sidebar {
-    background: url('img/bg-sidebar.gif') top left;
-    background-size: 230px 100%;
+    background: url('img/bg-sidebar.gif') top left no-repeat;
     width: 230px;
     height: 100%;
     position: absolute;
