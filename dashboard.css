@@ -1,0 +1,92 @@
+.sidebar {
+    background: url('img/bg-sidebar.gif') top left;
+    background-size: 230px 100%;
+    width: 230px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 11px;
+}
+
+.logo {
+    width: 175px;
+    margin: 50px 0 10px 50px;
+    cursor: pointer;
+}
+
+.school:hover {
+    color: white;
+}
+
+.school {
+    text-decoration: none;
+    color: #CCCCCC;
+    float: right;
+    padding: 0 15px 0px 15px;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica;
+    text-align: right;
+}
+
+.side-nav .home .home-link {
+    background-image: url("img/bg-current.gif");
+    color: #000000 !important;
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+.side-nav .home {
+    padding-top: 70px;
+}
+
+.side-nav .home .home-link:hover {
+    padding-right: 25px;
+}
+
+.side-nav .home ul .home-links {
+	padding: 0;
+}
+
+.side-nav .home ul .home-links a {
+    background: none;
+    display: block;
+    color: #AAAAAA !important;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1.2em;
+    transition: 0s;
+}
+
+.side-nav .home ul .home-links a:hover {
+    color: white !important;
+}
+
+.side-nav {
+    width: 206px;
+    padding: 0 0 0 9px;
+    margin: 0 0 0 15px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.side-nav li a {
+    background-image: url("img/blue-bar.gif");
+    background-repeat: no-repeat;
+    padding: 9px 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.side-nav li {
+    list-style: none;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.side-nav .side-links a:hover {
+    padding-right: 25px;
+}
